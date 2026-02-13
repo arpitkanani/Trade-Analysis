@@ -8,8 +8,13 @@ pip install -r requirements.txt
 ---
 
 ## Methodology
-This project analyzes historical trade-level data to understand how **market sentiment** (Extreme Fear, Fear, Neutral, Greed, Extreme Greed) influences **trader performance and behavior**. Trades were aggregated at the **daily trader level** to compute key metrics such as daily PnL, win rate, trade frequency, average trade size (used as a leverage proxy), long/short ratio, and a drawdown proxy.  
-Traders were further segmented into meaningful groups—**high vs low risk**, **frequent vs infrequent**, and **consistent vs inconsistent**—using statistically robust measures such as medians and PnL volatility. All insights were validated using grouped tables and distribution summaries.
+This project analyzes historical trade-level data to understand how **market sentiment** (Extreme Fear,
+Fear, Neutral, Greed, Extreme Greed) influences **trader performance and behavior**. Trades were 
+aggregated at the **daily trader level** to compute key metrics such as daily PnL, win rate, trade 
+frequency, average trade size (used as a leverage proxy), long/short ratio, and a drawdown proxy.  
+Traders were further segmented into meaningful groups—**high vs low risk**, **frequent vs infrequent**, 
+and **consistent vs inconsistent**—using statistically robust measures such as medians and PnL 
+volatility. All insights were validated using grouped tables and distribution summaries.
 
 ---
 
