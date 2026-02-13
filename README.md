@@ -1,6 +1,7 @@
 ### Follow below step first to setup environment  of python
 
 conda create -n venv python=3.10 -y
+
 conda activate venv/         # Windows
 
 pip install -r requirements.txt
