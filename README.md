@@ -99,6 +99,7 @@ Profitability is driven by **risk appetite and selectivity**, not win rate alone
 ## Strategy Recommendations
 ### Strategy 1:
 - **Conviction-Based Trade Frequency Filter:** During Greed and Neutral days, restrict trade frequency for high-frequency traders and prioritize low-frequency, high-conviction trades with balanced long/short exposure.
+
 **Why this works:**
 
 - Frequent traders show higher win rates but lower PnL (overtrading effect).
