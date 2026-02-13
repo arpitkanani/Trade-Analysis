@@ -23,7 +23,7 @@ def load_data():
         format="%d-%m-%Y %H:%M",
         errors='coerce'
     )
-    trades['date'] = trades['Timestamp IST'].dt.floor('D')
+    trades['date'] = trades['Timestamp IST'].dt.floor('D') # type: ignore
 
     df = trades.merge(
         sentiment[['date', 'classification']],
@@ -35,15 +35,6 @@ def load_data():
 
 
 
-# ============================================
-# LOAD MODEL OBJECTS
-# ============================================
-@st.cache_resource
-def load_objects():
-    model = joblib.load("models/model.pkl")
-    scaler = joblib.load("models/scaler.pkl")
-    le = joblib.load("models/label_encoder.pkl")
-    return model, scaler, le
 
 
 # ============================================
@@ -59,8 +50,6 @@ def load_objects():
 model, scaler, le = load_objects()
 
 
-
-model, scaler, le = load_objects()
 
 
 
