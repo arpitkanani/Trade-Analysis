@@ -98,8 +98,8 @@ Profitability is driven by **risk appetite and selectivity**, not win rate alone
 
 ## Strategy Recommendations
 ### Strategy 1:
-- **Conviction-Based Trade Frequency Filter:** During Greed and Neutral days, restrict trade frequency for high-frequency traders and prioritize low-frequency, high-conviction trades with balanced long/short exposure.
-#### Why this works:
+-**Conviction-Based Trade Frequency Filter:** During Greed and Neutral days, restrict trade frequency for high-frequency traders and prioritize low-frequency, high-conviction trades with balanced long/short exposure.
+**Why this works:**
 
 - Frequent traders show higher win rates but lower PnL (overtrading effect).
 
@@ -107,20 +107,20 @@ Profitability is driven by **risk appetite and selectivity**, not win rate alone
 
 - Greed days are less volatile, reducing the edge of rapid trading.
 
-#### Actionable implementation:
+**Actionable implementation**:
 
 - Set a maximum trades-per-day threshold in Greed regimes.
 - Encourage fewer, larger, thesis-driven trades.
 - Require long_ratio near 0.5 to avoid crowded directional bets.
-
+---
 - **Risk-controlled Fear strategy:** During Fear and Extreme Fear days, cap leverage for high-variance traders while allowing controlled scaling only for consistent traders to reduce tail losses.
 
-#### Why this works:
+**Why this works:**
 - Fear days show highest leverage, largest tail risk, and higher drawdowns.
 - Inconsistent traders generate profits through rare, oversized trades, which amplify downside risk.
 - Consistent traders maintain higher win rates and better risk control.
 
-#### Actionable implementation:
+**Actionable implementation:**
 - Impose a leverage ceiling for inconsistent traders during Fear.
 - Allow moderate size scaling only for traders with low PnL volatility.
 - Objective: reduce tail losses without killing upside.
